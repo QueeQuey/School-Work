@@ -1,7 +1,7 @@
 # School-Work
 This is a collection of the work that I did for undergrad that I am able to upload to GitHub. These may not work out of the box due to potentially relying on an external source (ex. github classroom).
 
-I also participated in a Hackathon and placed 2nd with my partner. That will not be part of this repo as there is another repo for that already.
+I also participated in a Hackathon and placed 2nd with my partner. That will not be part of this repo as there is another repo for that already, and can be found [here](https://github.com/detectred/bgsu-hackathon2025)
 
 
 ## Prefixes

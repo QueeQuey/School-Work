@@ -1,0 +1,5 @@
+user_id,first_name,last_name,phone_number,email,gender,verified
+U2,Varun,Kumar,419-333-4444,varunkp@bgsu.edu,MALE,0
+U3,Allice,Kumares,419-888-9876,a.kumares@yahoo.com,FEMALE,1
+U5,Abbas,Heydarnoori,419-777-7654,aheydar@bgsu.edu,MALE,0
+U7,Jack,Smith,419-111-4567,jack.smith@gmail.com,MALE,1

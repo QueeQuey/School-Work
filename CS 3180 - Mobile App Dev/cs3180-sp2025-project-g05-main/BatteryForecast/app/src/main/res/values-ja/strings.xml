@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_batteries">電池</string>
+    <string name="title_calculator">電卓</string>
+    <string name="title_home">一般</string>
+</resources>

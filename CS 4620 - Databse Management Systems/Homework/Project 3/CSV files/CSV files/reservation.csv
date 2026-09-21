@@ -1,0 +1,3 @@
+reservation_id,user_user_id,ticket_ticket_id,reservation_date,status
+R1,U3,T6,2023-03-04,Deposit
+R2,U7,T7,2023-01-15,Deposit

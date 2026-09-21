@@ -1,0 +1,5 @@
+﻿  Assignment2_Woodruff.cpp
+C:\Users\layne\OneDrive\Desktop\CS 3350\Assignments\Assignment2 - 3350\Assignment2_Woodruff\Assignment2_Woodruff.cpp(95,48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\layne\OneDrive\Desktop\CS 3350\Assignments\Assignment2 - 3350\Assignment2_Woodruff\Assignment2_Woodruff.cpp(130,48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\layne\OneDrive\Desktop\CS 3350\Assignments\Assignment2 - 3350\Assignment2_Woodruff\Assignment2_Woodruff.cpp(147,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Assignment2_Woodruff.vcxproj -> C:\Users\layne\OneDrive\Desktop\CS 3350\Assignments\Assignment2 - 3350\Assignment2_Woodruff\x64\Debug\Assignment2_Woodruff.exe

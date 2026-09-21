@@ -1,0 +1,53 @@
+Top-Down Fibonacci
+fib(2) = 1 - Time taken: 0.2855 ms
+
+fib(7) = 13 - Time taken: 0.1733 ms
+
+fib(30) = 832040 - Time taken: 0.4136 ms
+
+fib(10) = 55 - Time taken: 0.1836 ms
+
+fib(0) = 0 - Time taken: 0.1224 ms
+
+fib(8) = 21 - Time taken: 0.15 ms
+
+fib(50) = 12586269025 - Time taken: 0.4362 ms
+
+------------------
+
+Bottom - Up Fibonacci
+fib(2) = 1 - Time taken: 0.1755 ms
+
+fib(7) = 13 - Time taken: 0.1519 ms
+
+fib(30) = 832040 - Time taken: 0.2667 ms
+
+fib(10) = 55 - Time taken: 0.1819 ms
+
+fib(0) = 0 - Time taken: 0.1138 ms
+
+fib(8) = 21 - Time taken: 0.131 ms
+
+fib(50) = 12586269025 - Time taken: 0.3646 ms
+
+------------------
+
+Recursive Fibonacci
+fib(2) = 1 - Time taken: 0.102 ms
+
+fib(7) = 13 - Time taken: 0.1202 ms
+
+fib(30) = 832040 - Time taken: 10.6004 ms
+
+fib(10) = 55 - Time taken: 0.2526 ms
+
+fib(0) = 0 - Time taken: 0.1449 ms
+
+fib(8) = 21 - Time taken: 0.1153 ms
+
+fib(50) = 12586269025 - Time taken: 148324 ms
+
+------------------
+What I feel are the most "practical" options
+Recursive Fibonacci,57
+fib(57) = 365435296162 - Time taken: 4.37434e+06 ms

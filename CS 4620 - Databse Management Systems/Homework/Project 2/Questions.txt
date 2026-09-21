@@ -1,0 +1,7 @@
+Mandatory participation and disjoint for subclasses (ex. Sports Venue -> Sports Hall / Field)
+
+Derived attributes (set as generated?)
+
+Multi-value Attribute (Sport Type)?
+
+Change table formatting / looks? Ours is a bit different than in-class.

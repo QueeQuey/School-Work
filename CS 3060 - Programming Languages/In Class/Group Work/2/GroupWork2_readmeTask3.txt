@@ -1,0 +1,1 @@
+a) It is executed 50 times since the itteration is by 2. b) and others are in the code/console!

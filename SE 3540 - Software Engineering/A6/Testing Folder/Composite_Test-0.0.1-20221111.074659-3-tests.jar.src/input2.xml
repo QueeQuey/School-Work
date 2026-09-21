@@ -1,0 +1,31 @@
+<list name="Library">
+	<list name="Room1">
+		<list name="Rack11">
+			<list name="Shelf_Adventures">
+				<book name="Adventures1" price="60" isbn="1" />
+				<book name="Adventures2" price="12" isbn="2" />
+				<book name="Adventures3" price="79" isbn="3" />
+			</list>
+			<list name="Shelf_Empty">
+			</list>
+			<list name="Shelf_Music">
+				<cd name="Classical1" price="15" />
+				<cd name="Pop2" price="25" />
+				<cd name="Rock3" price="39" />
+				<cd name="Blues4" price="53" />
+			</list>
+		</list>
+		<list name="Rack12">
+		</list>
+	</list>
+	<list name="Room2">
+	</list>
+	<list name="Room3">
+	</list>
+	<list name="Room4">
+	</list>
+	<list name="Room5">
+	</list>
+	<list name="Room6">
+	</list>
+</list>

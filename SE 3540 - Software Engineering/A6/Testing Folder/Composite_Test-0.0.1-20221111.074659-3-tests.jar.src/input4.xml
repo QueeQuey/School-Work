@@ -1,0 +1,24 @@
+<list name="Library">
+	<list name="Room1">
+		<list name="Rack11">
+			<list name="Shelf_Adventures">
+				<book name="Adventures1" price="60" isbn="1" />
+				<book name="Adventures2" price="12" isbn="2" />
+				<book name="Adventures3" price="79" isbn="3" />
+			</list>
+			<list name="Shelf_Empty">
+			<list name="Shelf_Music">
+		</list>
+		<list name="Rack12">
+		</list>
+	<list name="Room2">
+	</list>
+	<list name="Room3">
+	</list>
+	<list name="Room4">
+	</list>
+	<list name="Room5">
+	</list>
+	<list name="Room6">
+	</list>
+</list>

@@ -1,0 +1,12 @@
+﻿.DS_Store
+*.kra~
+*.kra~~
+BatteryForecast/.idea/compiler.xml
+BatteryForecast/.idea/deploymentTargetSelector.xml
+BatteryForecast/.idea/gradle.xml
+BatteryForecast/.idea/inspectionProfiles/Project_Default.xml
+BatteryForecast/.idea/kotlinc.xml
+BatteryForecast/.idea/migrations.xml
+BatteryForecast/.idea/misc.xml
+BatteryForecast/.idea/runConfigurations.xml
+BatteryForecast/.idea/vcs.xml

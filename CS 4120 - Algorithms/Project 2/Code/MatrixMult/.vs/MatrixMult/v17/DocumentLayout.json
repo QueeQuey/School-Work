@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\layne\\OneDrive\\Desktop\\CS4120\\Homework\\Project 2\\Code\\MatrixMult\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C360A896-1689-4437-A7C1-A9BA01FC1963}|MatrixMult.vcxproj|C:\\Users\\layne\\OneDrive\\Desktop\\CS4120\\Homework\\Project 2\\Code\\MatrixMult\\MatrixMult.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C360A896-1689-4437-A7C1-A9BA01FC1963}|MatrixMult.vcxproj|solutionrelative:MatrixMult.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MatrixMult.cpp",
+              "DocumentMoniker": "C:\\Users\\layne\\OneDrive\\Desktop\\CS4120\\Homework\\Project 2\\Code\\MatrixMult\\MatrixMult.cpp",
+              "RelativeDocumentMoniker": "MatrixMult.cpp",
+              "ToolTip": "C:\\Users\\layne\\OneDrive\\Desktop\\CS4120\\Homework\\Project 2\\Code\\MatrixMult\\MatrixMult.cpp",
+              "RelativeToolTip": "MatrixMult.cpp",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAH4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-15T22:28:08.369Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

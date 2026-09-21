@@ -1,0 +1,11 @@
+Recursive: Minimum multiplications = 254000
+   Optimal Parenthesization: (((A(B(C(D(EF)))))(((((GH)I)J)K)(LM)))(NO))
+   Time Taken: 92507 ms
+
+2. Top-Down Memoized: Minimum multiplications = 254000
+   Optimal Parenthesization: (((A(B(C(D(EF)))))(((((GH)I)J)K)(LM)))(NO))
+   Time Taken: 122 ms
+
+3. Bottom-Up: Minimum multiplications = 254000
+   Optimal Parenthesization: (((A(B(C(D(EF)))))(((((GH)I)J)K)(LM)))(NO))
+   Time Taken: 477 ms

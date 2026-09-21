@@ -1,0 +1,112 @@
+package observer;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+public class NewsSpreaderBasicTest {
+  private NewsSpreader nsEmpty;
+  
+  private NewsSpreader nsFull;
+  
+  @BeforeEach
+  public void setUp() throws Exception {
+    this.nsEmpty = (NewsSpreader)new MainSpreader();
+    this.nsFull = (NewsSpreader)new MainSpreader();
+    this.nsFull.registerTrustedSource("InitSource", "initPwd");
+    this.nsFull.blockWord("bomb", false);
+  }
+  
+  @Test
+  public void testFailedRegister() {
+    boolean b = true;
+    try {
+      b = this.nsEmpty.registerTrustedSource(null, "pwd1");
+    } catch (Exception e) {
+      Assertions.fail(System.lineSeparator() + "-=- ACTUAL: registerTrustedSource(null, \"pwd1\") throws Exception: " + System.lineSeparator() + e.toString() + "-=- EXPECTED: return false");
+    } 
+    Assertions.assertFalse(b, "Register with null source should return false.");
+    try {
+      b = this.nsEmpty.registerTrustedSource("source1", null);
+    } catch (Exception e) {
+      Assertions.fail(System.lineSeparator() + "-=- ACTUAL: registerTrustedSource(\"source1\", null) throws Exception: " + System.lineSeparator() + e.toString() + "-=- EXPECTED: return false");
+    } 
+    Assertions.assertFalse(b, "Register with null password should return false");
+    try {
+      b = this.nsEmpty.registerTrustedSource(null, null);
+    } catch (Exception e) {
+      Assertions.fail(System.lineSeparator() + "-=- ACTUAL: registerTrustedSource(null, null) throws Exception: " + System.lineSeparator() + e.toString() + "-=- EXPECTED: return false");
+    } 
+    Assertions.assertFalse(b, "Register with null source and password should return false");
+    try {
+      b = this.nsEmpty.registerTrustedSource("source2", "");
+    } catch (Exception e) {
+      Assertions.fail(System.lineSeparator() + "-=- ACTUAL: registerTrustedSource(\"source2\", \"\") throws Exception: " + System.lineSeparator() + e.toString() + "-=- EXPECTED: return false");
+    } 
+    Assertions.assertFalse(b, "Register with empty password should return false");
+    b = this.nsEmpty.registerTrustedSource("source1", "pwd1");
+    Assertions.assertTrue(b, "Source1 should be able to register.");
+    b = this.nsEmpty.registerTrustedSource("source1", "pwd2");
+    Assertions.assertFalse(b, "Source1 is alread registered.");
+  }
+  
+  @Test
+  public void testSpreadNews() {
+    Assertions.assertThrows(IllegalArgumentException.class, () -> this.nsFull.spreadNews(null, "InitSource", "initPwd"), "Should throw IllegalArgumentException");
+    Assertions.assertThrows(UntrustedSourceException.class, () -> this.nsFull.spreadNews("news", "source", "pwd"), "Should throw UntrustedSourceException");
+    Assertions.assertThrows(AuthenticationException.class, () -> this.nsFull.spreadNews("news", "InitSource", "pwd"), "Should throw AuthenticationException");
+    Assertions.assertThrows(BlockedContentException.class, () -> this.nsFull.spreadNews("how to make a bomb", "InitSource", "initPwd"), "Should throw BlockedContentException");
+    String news2spread = "A bombshell new piece of news regarding apple pie.";
+    String spreadnews = "";
+    try {
+      spreadnews = this.nsFull.spreadNews(news2spread, "InitSource", "initPwd");
+    } catch (Exception e) {
+      Assertions.fail("Unexpected exception from spreadNews (no redacting): " + e.getMessage());
+    } 
+    Assertions.assertEquals(news2spread, spreadnews, "Wrong return value from spreadNews (no redacting)");
+    String news2 = news2spread + "bomb !";
+    this.nsFull.blockWord("pie", true);
+    Assertions.assertThrows(BlockedContentException.class, () -> this.nsFull.spreadNews(news2, "InitSource", "initPwd"), "Should throw BlockedContentException");
+    this.nsFull.blockWord("bomb", true);
+    try {
+      spreadnews = this.nsFull.spreadNews(news2, "InitSource", "initPwd");
+    } catch (Exception e) {
+      Assertions.fail("Unexpected exception from spreadNews");
+    } 
+    Assertions.assertEquals(news2.replaceAll("\\b(bomb|pie)\\b", "#"), spreadnews, "Wrong return value from spreadNews (with redacting)");
+  }
+  
+  @Test
+  public void testBlocking() {
+    String newsStr = "bad or too bad, badass";
+    boolean ret = this.nsFull.blockWord("bad", true);
+    String metCall = "blockWord(\"bad\", true);";
+    Assertions.assertTrue(ret, metCall + " should return true");
+    ret = this.nsFull.blockWord("ba", true);
+    metCall = "blockWord(\"ba\", true);";
+    Assertions.assertTrue(ret, metCall + " should return true");
+    ret = this.nsFull.blockWord(null, true);
+    metCall = "blockWord(null, true)";
+    Assertions.assertFalse(ret, metCall + " should return false");
+    ret = this.nsFull.blockWord(" bad word ", true);
+    metCall = "blockWord(\"  bad word \", true)";
+    Assertions.assertFalse(ret, metCall + " should return false");
+    ret = this.nsFull.blockWord("ba+", true);
+    metCall = "blockWord(\"ba+\", true)";
+    Assertions.assertFalse(ret, metCall + " should return false");
+    try {
+      String spread = this.nsFull.spreadNews(newsStr, "InitSource", "initPwd");
+      Assertions.assertEquals(newsStr.replaceAll("\\bbad\\b", "#"), spread, "The word \"bad\" was not redacted");
+    } catch (NewsSpreaderException e) {
+      Assertions.fail("Unexpected Exception  on redacted contents: " + e.getMessage());
+    } 
+    this.nsFull.blockWord("bad", false);
+    Assertions.assertThrows(BlockedContentException.class, () -> this.nsFull.spreadNews(newsStr, "InitSource", "initPwd"), "Should throw BlockedContentException");
+    this.nsFull.unblockWord("bad");
+    try {
+      this.nsFull.spreadNews(newsStr, "InitSource", "initPwd");
+    } catch (Exception e) {
+      Assertions.fail("Unexpected Exception after unblocking word \"bad\": " + e.getMessage());
+    } 
+  }
+}

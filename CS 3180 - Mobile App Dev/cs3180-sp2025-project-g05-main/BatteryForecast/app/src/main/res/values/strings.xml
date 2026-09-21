@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">BatteryForecast</string>
+    <string name="title_batteries">Batteries</string>
+    <string name="title_trips" translatable="false">Trips</string>
+    <string name="title_calculator">Calc</string>
+    <string name="title_home">Home</string>
+</resources>

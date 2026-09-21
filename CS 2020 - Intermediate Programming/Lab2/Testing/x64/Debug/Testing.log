@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\Layne Woodruff\Desktop\Spring 2023\CS2020\Lab2\Testing\Source.cpp(13,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Testing.vcxproj -> C:\Users\Layne Woodruff\Desktop\Spring 2023\CS2020\Lab2\Testing\x64\Debug\Testing.exe

@@ -1,0 +1,5 @@
+Printing a1: [1, 9, 7, 4] 
+a2 Prints the array a1 cubed: [1, 729, 343, 64] 
+a3 Prints an empty array since all values have a modulo of 1 or 0 from 3: [1, 729, 343, 64] 
+y Prints true since one of the values in a1 is greater than 25: [1, 729, 343, 64] 
+z Prints false since NOT ALL of the values in a1 are greater than 7: [1, 729, 343, 64] 

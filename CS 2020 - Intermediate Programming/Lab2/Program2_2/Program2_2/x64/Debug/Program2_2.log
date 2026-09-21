@@ -1,0 +1,6 @@
+﻿  product.cpp
+C:\Users\Layne Woodruff\Desktop\Spring 2023\CS2020\Lab2\Program2_2\Program2_2\product.cpp(114,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Layne Woodruff\Desktop\Spring 2023\CS2020\Lab2\Program2_2\Program2_2\product.cpp(131,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Layne Woodruff\Desktop\Spring 2023\CS2020\Lab2\Program2_2\Program2_2\product.cpp(149,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Layne Woodruff\Desktop\Spring 2023\CS2020\Lab2\Program2_2\Program2_2\product.cpp(177,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Program2_2.vcxproj -> C:\Users\Layne Woodruff\Desktop\Spring 2023\CS2020\Lab2\Program2_2\x64\Debug\Program2_2.exe

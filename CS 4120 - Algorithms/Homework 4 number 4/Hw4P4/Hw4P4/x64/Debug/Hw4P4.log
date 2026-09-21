@@ -1,0 +1,3 @@
+﻿  Hw4P4.cpp
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Homework 4 number 4\Hw4P4\Hw4P4.cpp(61,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Hw4P4.vcxproj -> C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Homework 4 number 4\Hw4P4\x64\Debug\Hw4P4.exe

@@ -1,0 +1,11 @@
+# TaskB Scala QuickSort
+
+BookSorter is a simple Scala application that implements a quick sort algorithm
+for sorting a list of books. It demonstrates sorting books by ISBN, title, or author
+using custom comparison functions.
+
+- Sort books by:
+  - ISBN (ascending)
+  - Title (descending)
+  - Author (ascending)
+- Implements a functional quick sort algorithm.

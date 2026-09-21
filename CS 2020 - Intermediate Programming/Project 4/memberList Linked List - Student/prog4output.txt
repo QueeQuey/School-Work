@@ -1,0 +1,234 @@
+The list is empty.
+774 is not a member.
+123 member added.
+456 member added.
+789 member added.
+147 member added.
+258 member added.
+369 member added.
+159 member added.
+489 member added.
+756 member added.
+852 member added.
+741 member added.
+963 member added.
+521 member added.
+125 member added.
+365 member added.
+563 member added.
+458 member added.
+968 member added.
+201 member added.
+305 member added.
+831 member added.
+750 member added.
+810 member added.
+708 member added.
+950 member added.
+604 member added.
+732 member added.
+===============================================================================
+Id   Name                     policy         premium        years
+--   ----                     ------         -------        -----
+732  Brandon Rubey            Boat           2500           9
+604  Heather Ramos            Auto           650            11
+950  Terrence Sprauer         Home           1795           13
+708  Christian Dickey         Home           1241           10
+810  Andrew Burrow            Auto           527            14
+750  Corbin Bruns             Mobile Home    6523           14
+831  Laura Nissen             Home           2148           4
+305  David August             Boat           4875           9
+201  Michael Bylon            Auto           935            5
+968  Houston Cole             Home           1287           21
+458  Justin Welsh             Home           426            8
+563  Benjamin Paulus          Mobile Home    952            12
+365  Rachel Higgins           Boat           5972           8
+125  Adam Williams            Boat           2751           9
+521  Isaiah Xie               Boat           4257           14
+963  Brittani Grunden         Boat           2647           6
+741  Levon Rodriguez          Auto           984            6
+852  Terry Curley             Auto           741            4
+756  Andrew Rine              Boat           1491           14
+489  Cory Boyce               Auto           952            5
+159  Charles Yang             Boat           9741           7
+369  Jun Fylaktou             Auto           987            10
+258  Melissa Spencer          Boat           7485           2
+147  Andrew King              Auto           789            1
+789  Emily Auler              Home           1405           8
+456  Andreas Bostater         Home           860            15
+123  Matt Johnson             Auto           859            5
+===============================================================================
+222 is not a member.
+732 member removed.
+123 member removed.
+708 member removed.
+===============================================================================
+Id   Name                     policy         premium        years
+--   ----                     ------         -------        -----
+604  Heather Ramos            Auto           650            11
+950  Terrence Sprauer         Home           1795           13
+810  Andrew Burrow            Auto           527            14
+750  Corbin Bruns             Mobile Home    6523           14
+831  Laura Nissen             Home           2148           4
+305  David August             Boat           4875           9
+201  Michael Bylon            Auto           935            5
+968  Houston Cole             Home           1287           21
+458  Justin Welsh             Home           426            8
+563  Benjamin Paulus          Mobile Home    952            12
+365  Rachel Higgins           Boat           5972           8
+125  Adam Williams            Boat           2751           9
+521  Isaiah Xie               Boat           4257           14
+963  Brittani Grunden         Boat           2647           6
+741  Levon Rodriguez          Auto           984            6
+852  Terry Curley             Auto           741            4
+756  Andrew Rine              Boat           1491           14
+489  Cory Boyce               Auto           952            5
+159  Charles Yang             Boat           9741           7
+369  Jun Fylaktou             Auto           987            10
+258  Melissa Spencer          Boat           7485           2
+147  Andrew King              Auto           789            1
+789  Emily Auler              Home           1405           8
+456  Andreas Bostater         Home           860            15
+===============================================================================
+===============================================================================
+             All Home members
+===============================================================================
+Id   Name                     policy         premium        years
+--   ----                     ------         -------        -----
+950  Terrence Sprauer         Home           1795           13
+831  Laura Nissen             Home           2148           4
+968  Houston Cole             Home           1287           21
+458  Justin Welsh             Home           426            8
+789  Emily Auler              Home           1405           8
+456  Andreas Bostater         Home           860            15
+-------------------------------------------------------------------------------
+The average Home premium is: $1320.17
+===============================================================================
+===============================================================================
+             All Mobile Home members
+===============================================================================
+Id   Name                     policy         premium        years
+--   ----                     ------         -------        -----
+750  Corbin Bruns             Mobile Home    6523           14
+563  Benjamin Paulus          Mobile Home    952            12
+-------------------------------------------------------------------------------
+The average Mobile Home premium is: $3737.5
+===============================================================================
+===============================================================================
+             All RVs members
+===============================================================================
+Id   Name                     policy         premium        years
+--   ----                     ------         -------        -----
+-------------------------------------------------------------------------------
+Sorry, no RVs members
+===============================================================================
+===============================================================================
+             Members of at least: 15    years
+===============================================================================
+Id   Name                     policy         premium        years
+--   ----                     ------         -------        -----
+968  Houston Cole             Home           1287           21
+456  Andreas Bostater         Home           860            15
+===============================================================================
+===============================================================================
+             Members of at least: 10    years
+===============================================================================
+Id   Name                     policy         premium        years
+--   ----                     ------         -------        -----
+604  Heather Ramos            Auto           650            11
+950  Terrence Sprauer         Home           1795           13
+810  Andrew Burrow            Auto           527            14
+750  Corbin Bruns             Mobile Home    6523           14
+968  Houston Cole             Home           1287           21
+563  Benjamin Paulus          Mobile Home    952            12
+521  Isaiah Xie               Boat           4257           14
+756  Andrew Rine              Boat           1491           14
+369  Jun Fylaktou             Auto           987            10
+456  Andreas Bostater         Home           860            15
+===============================================================================
+===============================================================================
+             Members of at least: 50    years
+===============================================================================
+Id   Name                     policy         premium        years
+--   ----                     ------         -------        -----
+Sorry, no member with 50 or more years
+===============================================================================
+-------------------------------------------------------------------------------
+Justin Welsh has the lowest premium of 426 dollar(s).
+===============================================================================
+889 member added.
+===============================================================================
+Id   Name                     policy         premium        years
+--   ----                     ------         -------        -----
+889  Sellers Barnes           Auto           5              12
+604  Heather Ramos            Auto           650            11
+950  Terrence Sprauer         Home           1795           13
+810  Andrew Burrow            Auto           527            14
+750  Corbin Bruns             Mobile Home    6523           14
+831  Laura Nissen             Home           2148           4
+305  David August             Boat           4875           9
+201  Michael Bylon            Auto           935            5
+968  Houston Cole             Home           1287           21
+458  Justin Welsh             Home           426            8
+563  Benjamin Paulus          Mobile Home    952            12
+365  Rachel Higgins           Boat           5972           8
+125  Adam Williams            Boat           2751           9
+521  Isaiah Xie               Boat           4257           14
+963  Brittani Grunden         Boat           2647           6
+741  Levon Rodriguez          Auto           984            6
+852  Terry Curley             Auto           741            4
+756  Andrew Rine              Boat           1491           14
+489  Cory Boyce               Auto           952            5
+159  Charles Yang             Boat           9741           7
+369  Jun Fylaktou             Auto           987            10
+258  Melissa Spencer          Boat           7485           2
+147  Andrew King              Auto           789            1
+789  Emily Auler              Home           1405           8
+456  Andreas Bostater         Home           860            15
+===============================================================================
+===============================================================================
+             All Auto members
+===============================================================================
+Id   Name                     policy         premium        years
+--   ----                     ------         -------        -----
+889  Sellers Barnes           Auto           5              12
+604  Heather Ramos            Auto           650            11
+810  Andrew Burrow            Auto           527            14
+201  Michael Bylon            Auto           935            5
+741  Levon Rodriguez          Auto           984            6
+852  Terry Curley             Auto           741            4
+489  Cory Boyce               Auto           952            5
+369  Jun Fylaktou             Auto           987            10
+147  Andrew King              Auto           789            1
+-------------------------------------------------------------------------------
+The average Auto premium is: $730
+===============================================================================
+-------------------------------------------------------------------------------
+Sellers Barnes has the lowest premium of 5 dollar(s).
+===============================================================================
+889 member removed.
+604 member removed.
+950 member removed.
+810 member removed.
+750 member removed.
+831 member removed.
+305 member removed.
+201 member removed.
+968 member removed.
+458 member removed.
+563 member removed.
+365 member removed.
+125 member removed.
+521 member removed.
+963 member removed.
+741 member removed.
+852 member removed.
+756 member removed.
+489 member removed.
+159 member removed.
+369 member removed.
+258 member removed.
+147 member removed.
+789 member removed.
+456 member removed.
+

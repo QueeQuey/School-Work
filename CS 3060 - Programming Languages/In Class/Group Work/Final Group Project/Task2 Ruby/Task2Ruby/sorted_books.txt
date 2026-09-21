@@ -1,0 +1,11 @@
+Sorted by ISBN (Ascending):
+ISBN: 67890, Author: Jane Smith, Title: Haskell
+
+Sorted by ISBN (Descending):
+ISBN: 67890, Author: Jane Smith, Title: Haskell
+
+Sorted by Title:
+ISBN: 67890, Author: Jane Smith, Title: Haskell
+
+Sorted by Author Name:
+ISBN: 67890, Author: Jane Smith, Title: Haskell

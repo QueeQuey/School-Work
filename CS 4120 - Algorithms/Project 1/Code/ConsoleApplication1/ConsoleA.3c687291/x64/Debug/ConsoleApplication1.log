@@ -1,0 +1,20 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(100,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(128,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(185,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(360,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(362,23): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(362,23): warning C4244:         with
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(362,23): warning C4244:         [
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(362,23): warning C4244:             _Ty=int
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(362,23): warning C4244:         ]
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(376,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(681,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(714,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(743,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(772,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(966,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(999,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(1028,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\ConsoleApplication1.cpp(1057,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  ConsoleApplication1.vcxproj -> C:\Users\layne\OneDrive\Desktop\CS4120\Homework\Project 1\Code\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

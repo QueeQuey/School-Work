@@ -1,0 +1,10 @@
+﻿  Product.cpp
+D:\Project 2\Program2\Product.cpp(10,47): error C2572: 'Product::Product': redefinition of default argument: parameter 1
+D:\Project 2\Program2\Product.h(16): message : see declaration of 'Product::Product'
+  Source.cpp
+D:\Project 2\Program2\Source.cpp(104,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Project 2\Program2\Source.cpp(117,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Project 2\Program2\Source.cpp(120,9): warning C4101: 'avgPrice': unreferenced local variable
+D:\Project 2\Program2\Source.cpp(130,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Project 2\Program2\Source.cpp(140,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...

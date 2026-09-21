@@ -1,0 +1,48 @@
+1)
+a)
+SELECT E.Fname, E.Lname
+FROM EMPLOYEE E
+JOIN WORKS_ON W ON E.Ssn = W.Essn
+JOIN PROJECT P ON W.Pno = P.Pnumber
+WHERE E.Dno = 5
+AND P.Pname = 'ProductX'
+AND W.Hours > 10;
+
+b)
+SELECT E.Fname, E.Lname
+FROM EMPLOYEE E
+JOIN DEPENDENT D ON E.Ssn = D.Essn
+WHERE E.Fname = D.Dependent_name;
+
+
+c)
+SELECT E.Fname, E.Lname
+FROM EMPLOYEE E
+JOIN EMPLOYEE S ON E.Super_ssn = S.SSN
+WHERE S.Fbanw = 'Franklin' AND S.Lname = 'Wong';
+
+2)
+a)
+SELECT S.Name
+FROM STUDENT S
+WHERE S.Class = ‘4’
+AND S.Major = 'CS';
+
+b) 
+SELECT C.Course_Name
+FROM COURSE C
+JOIN SECTION S ON C.Course_Number = S.Course_Number
+WHERE S.Instructor = 'King' 
+AND (Year = ‘07’ OR Year = ’08’);
+
+c)
+SELECT Course_Number, Semester, Year, COUNT(*)
+FROM SECTION, GRADE_REPORT
+WHERE Instructor='King' AND SECTION.Section_identifier = GRADE_REPORT.Section_Identifier
+GROUP BY CourseNumber, Semester, Year
+
+d)
+SELECT Name, Course_name, C.Course_number, Credit_hours, Semester, Year, Grade
+FROM STUDENT STU, COURSE C, SECTION SEC, GRADE_REPORT G
+WHERE Class=’4’ AND Major='cs' AND STU.Student_number=G.Student_number AND
+G.Section_identifier=SEC.Section_identifier AND SEC.Course_number=C.Course_number

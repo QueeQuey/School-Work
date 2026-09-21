@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment6 - 3350\\Assignment6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D47F56B-304A-4170-86FE-1E4FC975A047}|Assignment6.vcxproj|C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment6 - 3350\\Assignment6\\Assignment6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D47F56B-304A-4170-86FE-1E4FC975A047}|Assignment6.vcxproj|solutionrelative:Assignment6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Assignment6.cpp",
+              "DocumentMoniker": "C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment6 - 3350\\Assignment6\\Assignment6.cpp",
+              "RelativeDocumentMoniker": "Assignment6.cpp",
+              "ToolTip": "C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment6 - 3350\\Assignment6\\Assignment6.cpp",
+              "RelativeToolTip": "Assignment6.cpp",
+              "ViewState": "AgIAAC8AAAAA7DDzpvEPwEQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T04:20:29.709Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

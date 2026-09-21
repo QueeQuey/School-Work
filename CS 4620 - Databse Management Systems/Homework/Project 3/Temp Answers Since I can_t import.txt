@@ -1,0 +1,56 @@
+select CONCAT*first_name, ' ' lastname) AS Full_Name, email
+from user;
+
+--
+
+Select match_id, match_kind,venue_venue_id, match_date
+FROM Match join
+	(Select match_match_id
+	FROM ticket JOIN
+		(Select ticket_ticket_id
+			FROM purchase JOIN
+			(Select user_id
+				FROM user
+			Where first_name = 'Jack' AND last_name = 'smith') AS jackUserID
+			ON purchase_user_id = jackUserID.user_ID) AS ticketsBought
+	ON ticket.ticket_id = tickets_bought.ticket_ticket_id) as matchesBought
+ON  matchesBought.match_match_id = match.match_id
+ORDER BY match.match_date DESC;
+
+----
+
+Select user.user_id, user.first_name, user.last_name
+FROM user JOIN
+	(Select user_user_id
+	From purchase JOIN
+		(SELECT ticket_id
+			FROM ticket
+			WHERE type = 'VIP') AS VIPTicketIDs
+		ON VIPTicketIDs.ticket_id = purchase.ticket_ticket_id) AS VIP_Purchase_IDs		
+ON user.user_id = purchase.user_user_id;
+
+----
+Select match.venue_venue_id, COUNT(*)
+FROM match JOIN
+Select ticket_id, ticket.price, ticket.match_matchID
+FROM ticket JOIN
+	(Select ticket_ticket_id
+	FROM purchase
+	Where purchase_date LIKE '%2022') AS Sold_2022_Tickets
+ON ticket.ticket_id = Sold_2022_Tickets) AS ids_prices_2022_tickets
+ON match.match_id = id_prices_2022_tickets.match_matchID
+GROUP BY match.venue_venue_id;
+
+----
+Select user.user_ID, first_name, last_name, reservation.ticket_ticket_id
+from user JOIN
+	select reservation.ticket_ticket_id, reservation.user_user_id
+	from reservation JOIN
+	(Select ticket.ticket_id
+		from ticket
+		Where ticket.match_match_id = 'M3') AS m3Tickets
+	ON reservation.ticket_ticket_id = m3Tickets.ticket_id) AS reservedM3Tickets
+ON user.user_ID = reservation.user_user_id AS peopleTickets
+LEFT JOIN purchase ON purchase.ticket_ticket_id = reservedM3Tickets.reservation.ticket_ticket_id
+WHERE purchase_ticket_ticket_id IS NULL;
+...

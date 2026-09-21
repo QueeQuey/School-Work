@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\layne\\OneDrive\\Desktop\\CS4120\\Homework\\Homework 4 number 4\\Hw4P4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14AA34AE-A5B4-4294-8E42-64DA24CB6269}|Hw4P4.vcxproj|C:\\Users\\layne\\OneDrive\\Desktop\\CS4120\\Homework\\Homework 4 number 4\\Hw4P4\\Hw4P4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{14AA34AE-A5B4-4294-8E42-64DA24CB6269}|Hw4P4.vcxproj|solutionrelative:Hw4P4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hw4P4.cpp",
+              "DocumentMoniker": "C:\\Users\\layne\\OneDrive\\Desktop\\CS4120\\Homework\\Homework 4 number 4\\Hw4P4\\Hw4P4.cpp",
+              "RelativeDocumentMoniker": "Hw4P4.cpp",
+              "ToolTip": "C:\\Users\\layne\\OneDrive\\Desktop\\CS4120\\Homework\\Homework 4 number 4\\Hw4P4\\Hw4P4.cpp*",
+              "RelativeToolTip": "Hw4P4.cpp*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-20T00:16:54.644Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

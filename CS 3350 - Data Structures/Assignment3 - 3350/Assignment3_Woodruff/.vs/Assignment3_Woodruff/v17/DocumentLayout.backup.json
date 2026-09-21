@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment3 - 3350\\Assignment3_Woodruff\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2FD37C-72BE-4441-BC9A-C37C53F1CF01}|Assignment3_Woodruff.vcxproj|C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment3 - 3350\\Assignment3_Woodruff\\Assignment3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C2FD37C-72BE-4441-BC9A-C37C53F1CF01}|Assignment3_Woodruff.vcxproj|solutionrelative:Assignment3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2FD37C-72BE-4441-BC9A-C37C53F1CF01}|Assignment3_Woodruff.vcxproj|C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment3 - 3350\\Assignment3_Woodruff\\LinkedStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C2FD37C-72BE-4441-BC9A-C37C53F1CF01}|Assignment3_Woodruff.vcxproj|solutionrelative:LinkedStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2FD37C-72BE-4441-BC9A-C37C53F1CF01}|Assignment3_Woodruff.vcxproj|C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment3 - 3350\\Assignment3_Woodruff\\StackInterface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C2FD37C-72BE-4441-BC9A-C37C53F1CF01}|Assignment3_Woodruff.vcxproj|solutionrelative:StackInterface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2FD37C-72BE-4441-BC9A-C37C53F1CF01}|Assignment3_Woodruff.vcxproj|C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment3 - 3350\\Assignment3_Woodruff\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C2FD37C-72BE-4441-BC9A-C37C53F1CF01}|Assignment3_Woodruff.vcxproj|solutionrelative:Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Node.h",
+              "DocumentMoniker": "C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment3 - 3350\\Assignment3_Woodruff\\Node.h",
+              "RelativeDocumentMoniker": "Node.h",
+              "ToolTip": "C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment3 - 3350\\Assignment3_Woodruff\\Node.h",
+              "RelativeToolTip": "Node.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-01T03:50:39.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StackInterface.h",
+              "DocumentMoniker": "C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment3 - 3350\\Assignment3_Woodruff\\StackInterface.h",
+              "RelativeDocumentMoniker": "StackInterface.h",
+              "ToolTip": "C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment3 - 3350\\Assignment3_Woodruff\\StackInterface.h",
+              "RelativeToolTip": "StackInterface.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-01T03:50:29.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Assignment3.cpp",
+              "DocumentMoniker": "C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment3 - 3350\\Assignment3_Woodruff\\Assignment3.cpp",
+              "RelativeDocumentMoniker": "Assignment3.cpp",
+              "ToolTip": "C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment3 - 3350\\Assignment3_Woodruff\\Assignment3.cpp",
+              "RelativeToolTip": "Assignment3.cpp",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAIYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-01T03:42:17.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LinkedStack.h",
+              "DocumentMoniker": "C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment3 - 3350\\Assignment3_Woodruff\\LinkedStack.h",
+              "RelativeDocumentMoniker": "LinkedStack.h",
+              "ToolTip": "C:\\Users\\layne\\OneDrive\\Desktop\\CS 3350\\Assignments\\Assignment3 - 3350\\Assignment3_Woodruff\\LinkedStack.h",
+              "RelativeToolTip": "LinkedStack.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-01T03:50:34.072Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

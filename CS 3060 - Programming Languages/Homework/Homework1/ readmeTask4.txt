@@ -1,0 +1,1 @@
+Total number of words in story A: 1952Total number of words in story B: 2906Total number of UNIQUE words in storyA: 834Total number of UNIQUE words in storyB: 1041The 4th most common word in story A at 44 occurances is ["to", 44].The 4th most common word in story A at 75 occurances is ["of", 75].Total number of UNIQUE words BETWEEN story A and story B: 1598
